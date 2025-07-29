@@ -16,15 +16,15 @@ body {
   align-items: center;
   background: #60a3ad; /* Aqua blue */
   color: white;
-  padding: 1rem 2rem;
+  padding: 0.3rem 2rem;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
 .logo img {
-  height: 63px;
-  width: 63px;
+  height: 100px;
+  width: 100px;
 }
 
 .nav-links {
@@ -56,7 +56,6 @@ body {
 
 .enroll-btn:hover {
   background: #b98353;
-  scale: 1.05;
 }
 
 /* Hamburger Menu */
@@ -147,4 +146,21 @@ body {
   font-size: 0.9rem;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 1rem;
+}
+
+/* social icons */
+.footer-section .social-icons {
+  margin-top: 10px;
+}
+
+.footer-section .social-icons a {
+  color: #ffffff; /* or your preferred tone from logo palette */
+  margin-right: 15px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section .social-icons a:hover {
+  color: #ccc; /* or a highlight color on hover */
 }
